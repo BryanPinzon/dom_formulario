@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url(https://static.wixstatic.com/media/4023e9_c8e5b3b994dd48ef941be0f97f6d21ae~mv2.png/v1/fit/w_2500,h_1330,al_c/4023e9_c8e5b3b994dd48ef941be0f97f6d21ae~mv2.png);
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content:  center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+label {
+    margin-left: 5px;
+    /* padding-left: 1.5rem; */
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+#nombre, #apellido {
+    /* padding: 0.1rem; */
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 0.4rem;
+
+}
+#nombre:hover,#apellido:hover{
+    background-color: #BAD7F2;
+    transition: 1s;
+}
+
+input   {
+    margin-top: 7rem;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+input:hover {
+    background-color: #BAD7F2;
+    transition: 1s;
+    cursor: pointer;
+
+}
